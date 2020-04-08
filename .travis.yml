@@ -15,7 +15,7 @@ deploy:
     region: "us-east-2"
     app: "docker-ci"
     env: "DockerCi-env"
-    bucker_name: "elasticbeanstalk-us-east-2-102560297655"
+    bucket_name: "elasticbeanstalk-us-east-2-102560297655"
     bucket_path: "docker-ci"
     on:
         branch: master
